@@ -27,7 +27,7 @@ body::before {
 
 .cd-section1 {
   height:100vh;
-
+  background: 'back3.jpg';
 }
 
 @media only screen and (min-width: 1170px) {
