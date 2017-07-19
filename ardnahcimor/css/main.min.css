@@ -57,7 +57,7 @@ a:hover {
 .background-static {
     min-width: 1280px;
     min-height: 720px;
-    background-image: url(../images/bg/hi/image-1.jpg);
+    /*background-image: url(../images/bg/rh/img01.jpg);*/
     background-attachment: fixed
 }
 
