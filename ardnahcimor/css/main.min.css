@@ -1,6 +1,6 @@
 a,
 em {
-    color: rgba(50, 255, 64, 1);
+    color: rgba(252, 202, 8, 1);
     font-weight: bold;
 }
 
@@ -21,7 +21,7 @@ html {
 
 body {
     color: #fff;
-    background: blueviolet;
+    background: #4c4c4c;
     font-family: Merriweather, Georgia, serif;
     font-weight: 300
 }
@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-    color: #FB0
+    color: #fd8654
 }
 
 .sans {
@@ -265,8 +265,8 @@ a:hover {
 #loader .prism .side::before {
     content: '';
     position: absolute;
-    border: .5px solid rgba(255, 255, 255, .5);
-    background: rgba(55, 255, 55, .5);
+    border: .5px solid rgba(255, 255, 255, .8);
+    background: rgba(0, 0, 0, .8);
     box-sizing: border-box;
     top: 0;
     left: 0;
@@ -388,7 +388,7 @@ a:hover {
     width: 2px;
     right: calc(50% - 1px);
     left: calc(50% - 1px);
-    background-color: rgba(55, 255, 55, .5)
+    background-color: rgba(255, 255, 255, .8);
 }
 
 #indicator-container>span {
@@ -396,8 +396,10 @@ a:hover {
     width: 12px;
     height: 12px;
     margin-top: -6px;
-    border: 1px solid rgba(255, 255, 255, .5);
-    background: 1px rgba(55, 255, 55, .5);
+    border: 1px solid rgba(255, 255, 255, .9);
+    background: 1px rgba(0, 0, 0, 1);
+        /*color: rgba(50, 255, 64, 1);*/
+
     box-sizing: border-box;
     position: absolute;
     cursor: pointer;
@@ -563,8 +565,8 @@ a:hover {
 }
 
 #prism-menu .prism-container {
-    background: rgba(255, 255, 255, .1);
-    border: 1px solid rgba(255, 255, 255, .1);
+    background: rgba(0, 0, 0, .5);
+    border: 1px solid rgba(255, 255, 255, .8);
     left: 50%;
     top: 50%;
     position: absolute;
@@ -733,7 +735,7 @@ a:hover {
         content: '';
         position: absolute;
         border: .5px solid rgba(255, 255, 255, .5);
-        background: rgba(55, 255, 55, .5);
+        background: rgba(0, 0, 0, .8);
         box-sizing: border-box;
         top: 0;
         left: 0;
@@ -839,7 +841,7 @@ section {
     transform: translateY(-50%);
     -webkit-transition: opacity .5s;
     transition: opacity .5s;
-    color: rgba(247, 255, 20, 1);
+    color: rgba(253, 218, 84, 1);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, .1)
 }
 
