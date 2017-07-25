@@ -867,7 +867,6 @@ section>div:not(:first-child) {
 @media (min-width:340px) {
     #sections {
         line-height: 1.8;
-        font-size: 1.2rem
     }
     section {
         left: 15%
